@@ -1,5 +1,7 @@
 import React from 'react';
 import NumberWithLabel from './NumberWithLabel';
+import Ranks from './Ranks';
+
 import classNames from 'classnames';
 
 class HomeBar extends React.Component {
@@ -36,7 +38,7 @@ HomeBar.propTypes = {
 HomeBar.defaultProps = {
 	rank:32,
 	profileImg:"textForNow",
-	credits: -1.05
+	credits: 25.05
 };
 
 export default HomeBar;

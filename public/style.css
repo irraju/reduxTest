@@ -5,39 +5,38 @@
 }
 
 .homeBar{
-  width:100%;
+  width:80%;
   height:180px;
   margin: 0 auto;
+  text-align:center;
 }
 
 .homeBar .profileImg {
-  display:inline-block;
-  color: blue;
-  width:20%;
-  min-width:180px;
-  height:180px;
+  text-align:center;
+  min-width:300px;
   margin: 10px auto;
-  float:left;
+  display:inline-block;
+  height: 180px;
+}
+
+img.profileImg {
+    margin:auto;
 }
 
 .homeBar .rank {
   display:inline-block;
   color: blue;
-  width:40%;
-  min-width:350px;
+  min-width:300px;
   height:180px;
   margin: 10px auto;
-  float:left;
 }
 
 .homeBar .credits {
   display:inline-block;
-  min-width:350px;
+  min-width:300px;
   color: blue;
-  width:40%;
   height:180px;
   margin: 10px auto;
-  float:left;
 }
 
 .numberWithLabel {
@@ -68,14 +67,106 @@
 
 .imageCircle {
   display: inline-block;
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
-/*div {
-  border: solid gray 2px;
-}*/
+
+.compareBar{
+  position:relative;
+  padding:0px 0px;
+}
+
+.compareBar .leftDiv{
+  position:absolute;
+  display:inline-block;
+  background-color:blue;
+  right:0px;
+  height:80px;
+  vertical-align:center;
+  width:100px;
+}
+
+.compareBar .rightDiv{
+  position:absolute;
+  display:inline-block;
+  background-color:green;
+  left:0px;
+  height:80px;
+  vertical-align:center;
+  width:100px;
+
+}
+
+.tabs{
+  font-size:32px;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
+.tabsBar{
+  width:80%;
+}
+
+.ranks ul {
+  margin: 12px auto !important;
+  height:500px;
+}
+
+ul.rankCard li {
+    display: inline;
+    font-size:36px;
+    float: left;
+}
+
+.rankCard li.rank {
+  width:20%;
+}
+.rankCard li.name {
+  width:60%;
+}
+.rankCard li.credits {
+  width:20%;
+}
+
+ul.matchCard li {
+    display: inline;
+    float: left;
+    height:400px;
+}
+
+.matchCard li.date {
+  width:30%;
+  font-size:24px;
+  font-weight:lighter;
+}
+
+.matchCard li.match {
+  width:60%;
+  font-size:48px;
+  font-weight:bolder;
+
+}
+
+.matchCard li.match span.countDown{
+  font-size:24px;
+  position:relative;
+}
+
+.matchCard li.odds {
+  width:10%;
+  font-size:32px;
+  font-weight:bolder;
+}
+
+.matchCard li.date span {
+}
+
+.home {
+  text-align: : center;
+}
+
